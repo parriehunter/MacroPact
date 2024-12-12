@@ -6,8 +6,8 @@ from kmk.matrix import intify_coordinate as ic
 
 
 class KMKKeyboard(_KMKKeyboard):
-    col_pins = (board.GP15, board.GP14, board.GP13, board.GP12, board.GP11)
-    row_pins = (board.GP16, board.GP17, board.GP18, board.GP19)
+    row_pins=(board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5),
+    column_pins=(board.GP6, board.GP7, board.GP8, board.GP9),
     diode_orientation = DiodeOrientation.COLUMNS
     coord_mapping = []
     coord_mapping.extend(ic(0, x) for x in range(5))
