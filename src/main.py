@@ -70,9 +70,9 @@ keyboard = KMKKeyboard()
 
 
 keyboard.keymap = [
-    [KC.LSFT(KC.D), KC.LSFT(KC.I),      KC.S,              KC.LALT(KC.L), KC.LALT(KC.D),       KC.3,                KC.F2,               KC.1,
+    [KC.LSFT(KC.D), KC.LSFT(KC.I),      KC.S,              KC.LALT(KC.L), KC.LALT(KC.D),       KC.N3,               KC.F2,               KC.N1,
      KC.L,          KC.LCTL(KC.L),      KC.LSFT(KC.L),     KC.LALT(KC.R), KC.LSFT(KC.B),       KC.LSFT(KC.A),       KC.LSFT(KC.E),       KC.LSFT(KC.T),
-     KC.LCTL(KC.D), KC.LALT(KC.LEFT),   KC.LALT(KC.RIGHT), KC.NO,         KC.LCTL(KC.B),       KC.LCTL(KC.A),       KC.LCTL(KC.E),       KC.LCTL(KC.T),
+     KC.LCTL(KC.D), KC.LALT(KC.KP_4),   KC.LALT(KC.KP_6),  KC.NO,         KC.LCTL(KC.B),       KC.LCTL(KC.A),       KC.LCTL(KC.E),       KC.LCTL(KC.T),
      ],
   #  [KC.F1,         KC.E,           KC.LCMD(KC.J),          KC.LCMD(KC.LSFT(KC.EQUAL)),         KC.NO,
 #     KC.F6,         KC.G,           KC.LCMD(KC.LSFT(KC.J)), KC.LCMD(KC.MINUS),                  KC.NO,
